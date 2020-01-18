@@ -31,14 +31,14 @@ services:
     restart: always
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_DB_ROOT_PASS}
+      MYSQL_ROOT_PASSWORD: "easydock"
       MYSQL_DATABASE: ${MYSQL_DB_NAME}
       MYSQL_USER: ${MYSQL_DB_USER}
       MYSQL_PASSWORD: ${MYSQL_DB_PASS}
     ports:
       - "${MYSQL_PORT}:3306"
     volumes:
-      - easydocker-persist-db-data-${MYSQL_DB_STORAGE_UNIQUID}:/var/lib/mysql
+      - easydocker-persist-db-data:/var/lib/mysql
 
 volumes:
-  easydocker-persist-db-data-${MYSQL_DB_STORAGE_UNIQUID}:
+  easydocker-persist-db-data:
