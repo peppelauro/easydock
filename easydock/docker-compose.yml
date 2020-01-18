@@ -38,7 +38,7 @@ services:
     ports:
       - "${MYSQL_PORT}:3306"
     volumes:
-      - easydocker-persist-db-data:/var/lib/mysql
+      - easydocker-persist-db-data-${MYSQL_DB_STORAGE_UNIQUID}:/var/lib/mysql
 
 volumes:
-  easydocker-persist-db-data:
+  easydocker-persist-db-data-${MYSQL_DB_STORAGE_UNIQUID}:
