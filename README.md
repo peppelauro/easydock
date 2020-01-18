@@ -16,5 +16,8 @@ $ docker-compose up
 - In you need MySql DB use access data written in /easydock/.env file
 - If you need you can customize /easydock/.env parameters and re-run the project
 
+## Features
+Easydock comes with ngnix, PHP (last stable version) and MySql 5.7
+
 ## Requirements
 Docker, Docker Compose, (GIT)
