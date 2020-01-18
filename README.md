@@ -22,6 +22,9 @@ Easydock comes with ngnix, PHP (last stable version) and MySql 5.7
 ## Requirements
 Docker, Docker Compose, (GIT)
 
+## Useful Docker CLI basic and simple commands
+"docker-compose up", "docker-compose down" and "docker system prune -a"
+
 ## Contributing
 Thank you for considering contributing to this project!
 
