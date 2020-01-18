@@ -21,3 +21,14 @@ Easydock comes with ngnix, PHP (last stable version) and MySql 5.7
 
 ## Requirements
 Docker, Docker Compose, (GIT)
+
+## Contributing
+Thank you for considering contributing to this project!
+
+## Security Vulnerabilities
+If you discover a security vulnerability within Easydock, please send an e-mail to Andrea Pollastri via mail@andreapollastri.net. All security vulnerabilities will be promptly addressed.
+
+## Licence
+Easydock is open-source software licensed under the MIT license.
+
+### Enjoy Easydock :)
