@@ -13,7 +13,7 @@ $ docker-compose up
 ```
 - Visit http://localhost
 - Push your web files into /public (as required by Laravel, ReactJS, ...)
-- In you need MySql DB use access data written in /easydock/.env file
+- If you need MySql DB use access data written in /easydock/.env file
 - If you need you can customize /easydock/.env parameters and re-run the project
 
 ## Features
