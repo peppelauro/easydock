@@ -13,4 +13,7 @@ Then visit http://localhost and push your web files into /public.
 The db access data are into /easydock/.env file.
 If you need you can customize parameters.
 
+## Requirements
+Docker, Docker Compose, (GIT)
+
 Enjoy Easydock :)
